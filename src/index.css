@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend';
+}
+html{
+  background-color: #F5F6F8;
+}
+.wrs_modal_dialogContainer{
+  z-index: 999999999999999 !important;
+}
+.wrs_focusElement{
+  z-index: 999999999999999 !important;
+}
+/* .MuiDialog-container {
+  z-index: 9999999 !important;
+
+} */
+
+.swal2-container{
+  z-index: 99999999999999 !important;
+}
+.react-responsive-modal-root{
+  z-index: 9999999999999 !important;
+  align-self: center !important;
+}
+/* .css-zw3mfo-MuiModal-root-MuiDialog-root{
+  display: none !important;
+} */
+.mybar{
+  width: 95%;
+  margin: 5px;
+}
+
+.mybar .ck-editor__editable {
+  min-height: 50px;
+  border: none !important;
+  overflow: hidden !important;
+  outline: none !important;
+}
+.mybar .ck.ck-editor__main>.ck-editor__editable{
+  background-color: none !important;
+}
+.mybar .ck-toolbar_grouping{
+  display: none !important;
+}
+.mybar .ck-rounded-corners{
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: #EAF8FF !important;
+  
+}

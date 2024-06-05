@@ -1,0 +1,26 @@
+.toolbar{
+    border-radius: 10px 10px 0px 0px;
+    background: #ffffff;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    padding: 10px 5px;
+    row-gap: 15px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+    border: 1px solid rgb(229, 229, 229);
+}
+.toolbar-grp>*{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.toolbar-grp{
+    margin:0 10px;
+}
+select{
+    height: 30px;
+    border: none;
+    width: 6.9rem;
+}
